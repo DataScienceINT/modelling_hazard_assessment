@@ -1,0 +1,32 @@
+This directory contains the Jupyter notebooks for the lesson.
+
+## Notebooks
+
+### `01_lab1_local.ipynb`
+
+This is the main notebook for the 2-hour in-class lab. It introduces the complete workflow from loading the genotoxicity dataset to preparing molecular fingerprints and building a first neural-network classifier.
+
+The first part is intended as hands-on work:
+
+- environment check and local dataset loading
+- exploratory data analysis
+- filtering ambiguous labels
+- molecular visualisation
+- conversion from SMILES to RDKit molecules
+- Morgan fingerprint calculation
+
+The structural-similarity section and the deep-learning section are best treated as instructor-led demos. They are useful to run, but the main goal is to understand the modelling choices and interpretation rather than to complete every implementation detail independently during the 2-hour session.
+
+### `02_lab2_extra_local.ipynb`
+
+This is an optional extra assignment. It starts from the same local dataset and descriptor workflow, then extends Lab 1 with more model-evaluation and model-selection concepts:
+
+- k-fold cross-validation
+- estimating generalisation performance
+- learning curves
+- discussion of validation curves and hyperparameter tuning
+- model-selection principles such as parsimony
+
+Compared with Lab 1, this notebook is less suitable as a short guided classroom exercise because it trains several models and takes longer to run. Use it for self-study, follow-up work, or a longer practical session.
+
+Both notebooks are local-first and should be run from the repository environment created with `uv sync`.
