@@ -1,1 +1,23 @@
-This directory contains presentation slides.
+This directory contains the presentation material for the lesson.
+
+## Slide decks
+
+### `01_ngra_intro_skeleton.pptx`
+
+Editable skeleton for the first 60 minutes of the lesson. It follows the
+lesson-plan sequence from the regulatory context and traditional risk
+assessment to NGRA, NAMs, AOPs, kinetics, points of departure, uncertainty,
+and evidence integration. The final slides introduce the genotoxicity case
+study and transition directly into Lab 1.
+
+The slides contain timing markers, concise source references, and teaching
+prompts in the speaker notes. The visual design and examples are intentionally
+kept at skeleton level until the content and ordering have been reviewed.
+
+### `theory_panoraima_le_toxicology.pptx`
+
+The uploaded theory deck. It contains the predictive-toxicology, QSAR,
+machine-learning, neural-network, model-evaluation, and data-splitting theory
+that supports the notebooks. It is currently broader than the two-hour lesson
+and should be reduced or moved partly to an appendix when the decks are
+combined.
